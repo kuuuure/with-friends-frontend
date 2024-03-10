@@ -12,5 +12,6 @@ export type userType = {
     userRole?: number;
     userStatus?: number;
     tags: string[];
+    profile?:string;
     createTime:Date;
 };
